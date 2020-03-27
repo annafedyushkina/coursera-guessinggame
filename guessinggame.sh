@@ -7,7 +7,7 @@ function getnum {
   echo $input
 } 
 
-files_num=$(ls -A | wc -w)
+files_num=$(ls -A | wc -l)
 echo "How many files are there in this directory?"
 echo "Your guess:"
 guess=$(getnum)
